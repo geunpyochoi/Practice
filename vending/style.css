@@ -1,0 +1,93 @@
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3 {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  border: 0;
+  background: none;
+}
+
+button:enabled {
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style: none;
+}
+input {
+  border-style: none;
+}
+
+body{
+  background-color: #EAE8FE;
+}
+
+.logo{
+  width: 386px;
+  height: 165px;
+  margin: 0 auto;
+}
+
+.vending{
+  display: grid;
+  grid-template-areas: 
+  "a b"
+  "a c"
+  ;
+  margin-top: 83px;
+  gap: 28px;
+}
+
+.ven-main,
+.ven-get,
+.ven-money{
+  background-color: #fff;
+}
+
+.ven-main{
+  grid-area: a;
+  width: 360px;
+  height: 545px;
+  margin: 0 auto;
+}
+
+.btn-cola{
+  border: 1px solid red;
+  /* border-radius: ; */
+}
+
+.btn-cola div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.btn-cola div img{
+  width: 36px;
+}
