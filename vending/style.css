@@ -58,9 +58,11 @@ body{
   "a b"
   "a c"
   ;
-  margin-top: 83px;
-  gap: 28px;
-}
+  margin: 67px auto;
+  gap: 20px 28px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px auto;
+} 
 
 .ven-main,
 .ven-get,
@@ -70,9 +72,7 @@ body{
 
 .ven-main{
   grid-area: a;
-  width: 360px;
-  height: 545px;
-  margin: 0 auto;
+
 }
 
 .btn-cola{
