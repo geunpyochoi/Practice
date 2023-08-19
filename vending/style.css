@@ -42,6 +42,10 @@ input {
   border-style: none;
 }
 
+*{
+  font-family: 'Noto Sans KR';
+}
+
 body{
   background-color: #EAE8FE;
 }
@@ -75,11 +79,20 @@ body{
 
 }
 
-.btn-cola{
-  border: 1px solid red;
-  /* border-radius: ; */
+.not-selected{
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.50);
 }
 
+.selected {
+  border: 3px solid #6327FE;
+  border-radius: 10px;
+}
+
+.sold-out{
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.80);
+}
 .btn-cola div{
   display: flex;
   flex-direction: column;
@@ -91,3 +104,19 @@ body{
 .btn-cola div img{
   width: 36px;
 }
+
+.btn-cola p{
+  color: #333;
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.btn-cola span{
+  color:#fff;
+  background-color: #6327FE;
+  padding: 5px 16px;
+  margin-top: 7px;
+  border-radius: 50px;
+}
+
