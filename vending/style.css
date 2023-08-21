@@ -81,8 +81,10 @@ body{
 
 .product{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  margin:27px 31px;
+  grid-template-rows : 150px auto;
+  grid-template-columns: 130px 130px 130px;
+  justify-content: center;
+  margin:27px 0;
   gap : 12px;
 }
 
