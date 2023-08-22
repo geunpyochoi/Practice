@@ -62,7 +62,7 @@ body{
   "a b"
   "a c"
   ;
-  margin: 67px auto;
+  margin: 67px 420px;
   gap: 20px 28px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 50px auto;
@@ -84,7 +84,7 @@ body{
   grid-template-rows : 150px auto;
   grid-template-columns: 130px 130px 130px;
   justify-content: center;
-  margin:27px 0;
+  margin: 31px 27px;
   gap : 12px;
 }
 
@@ -116,8 +116,14 @@ body{
   left: 0;
 }
 
-.sold-out{
-  
+.sold-out strong{
+  color: #EAE8FE;
+  z-index: 10;
+  position: absolute;
+  border: 6px double #EAE8FE;
+  font-size: 16px;
+  width: 45px;
+  transform: rotate(-17.965deg);
 }
 
 .btn-cola div{
