@@ -8,15 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./style.css">
   <title>밴딩머신</title>
 </head>
 
 <body>
-  <div class="logo">
+  <header class="logo">
     <img src="./img/cola-logo.png" alt="로고">
-  </div>
-  <section class="vending">
+  </header>
+  <main class="vending">
     <section class="ven-main">
       <div class="product">
         <button class="btn-cola selected">
@@ -63,10 +64,15 @@
           </div>
         </button>
       </div>
+      <div class="rtn-balance">
+        <span class="balance">잔액 : <span>1000원</span></span>
+        <button class="rtn-change">거스름돈 반환</button>
+      </div>
     </section>
-    <section class="ven-money"></section>
+    <section class="ven-money">
+    </section>
     <section class="ven-get"></section>
-  </section>
+  </main>
 </body>
 
 </html>
