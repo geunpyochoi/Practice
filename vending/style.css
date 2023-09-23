@@ -110,7 +110,7 @@ body{
   border-radius: 50px;
 }
 
-/* 잔액, 거스름 돈 반환 */
+/* 잔액, 거스름 돈 반환, 입금 */
 .rtn-balance{
   display: flex;
   margin-bottom: 20px;
@@ -128,7 +128,8 @@ body{
   border-radius: 5px;
 }
 
-.rtn-change{
+.btn-rtn,
+.btn-dep{
   background: #FFF;
   border-radius: 5px;
   width:130px;
@@ -137,4 +138,19 @@ body{
   font-size: 15px;
   font-weight: 500;
 }
-/* 잔액, 거스름 돈 반환 */
+
+.depsoit{
+}
+
+.btn-dep{
+  padding: 6px 35px;
+}
+.input-dep{ 
+  margin-left: 27px;
+  margin-right: 9px;
+  width: 257px;
+  border-radius: 5px;
+  padding: 6px;
+  border-color: #bdbdbd;
+}
+/* 잔액, 거스름 돈 반환, 입금 */
