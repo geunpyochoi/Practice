@@ -172,6 +172,7 @@ body{
   background: #FFF;
   border-radius: 5px;
   margin: 10px 15px;
+  position: relative;
 }
 
 .get-cola img{
@@ -188,5 +189,13 @@ body{
   width: 130px;
   height: 106px;
   border-style: none;  
+}
+
+.get-cola strong{
+  position: absolute;
+  right: 10px;
+  border: 2px solid #BDBDBD;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 /* 획득 콜라 리스트, 획득 버튼 */
