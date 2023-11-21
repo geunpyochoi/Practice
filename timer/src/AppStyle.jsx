@@ -55,4 +55,11 @@ export const TimerBox = styled.div`
     font-family: "Pretendard-Regular";
     color: #fff;
   }
+  hr {
+    margin-top: 40px;
+    width: 80%;
+    background: #3d538a;
+    border: 0;
+    height: 1px;
+  }
 `;

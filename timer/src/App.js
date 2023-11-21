@@ -12,6 +12,7 @@ function App() {
         <p className='logo'>Pomodoro</p>
         <TimerBox>
           <p className='timer'>TIMER</p>
+          <hr />
         </TimerBox>
       </Body>
     </>
