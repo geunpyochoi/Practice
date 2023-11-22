@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
+import dot from "./images/dot.png";
 
 export const GlobalStyles = createGlobalStyle`
   ${reset}
@@ -33,6 +34,7 @@ export const Body = styled.div`
     font-family: "GongGothicMedium";
     margin-top: 130px;
     font-size: 50px;
+    font-weight: 700;
   }
 `;
 
@@ -54,6 +56,7 @@ export const TimerBox = styled.div`
     margin-top: 60px;
     font-family: "Pretendard-Regular";
     color: #fff;
+    font-weight: 700;
   }
   hr {
     margin-top: 40px;
@@ -61,5 +64,29 @@ export const TimerBox = styled.div`
     background: #3d538a;
     border: 0;
     height: 1px;
+  }
+  .time-text {
+    width: 100%;
+    font-family: "Pretendard-Regular";
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dot {
+    display: flex;
+    flex-direction: row;
+  }
+  .hrs::after,
+  .min::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url(${dot}) no-repeat center center;
   }
 `;
