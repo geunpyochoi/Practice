@@ -1,6 +1,7 @@
 import React from "react";
 import { Body, TimerBox } from "./AppStyle";
 import { GlobalStyles } from "./AppStyle";
+import dot from "./images/dot.png";
 
 import box from "./images/box.png";
 function App() {
@@ -15,15 +16,19 @@ function App() {
           <div className='time-text'>
             <div className='time hrs'>
               <span>HRS</span>
-              <img src={box} alt='' />
+              <div className='dot'>
+                <img src={box} alt='' className='box' />
+              </div>
             </div>
             <div className='time min'>
               <span>MIN</span>
-              <img src={box} alt='' />
+              <div className='dot'>
+                <img src={box} alt='' className='box' />
+              </div>
             </div>
             <div className='time sec'>
               <span>SEC</span>
-              <img src={box} alt='' />
+              <img src={box} alt='' className='box' />
             </div>
           </div>
         </TimerBox>
