@@ -75,6 +75,7 @@ export const TimerBox = styled.div`
   .time {
     display: flex;
     align-items: center;
+    position: relative;
   }
   .dot {
     display: flex;
@@ -94,6 +95,19 @@ export const TimerBox = styled.div`
     height: 100px;
     background: url(${dot}) no-repeat center 70px;
   }
+  .minute {
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+  .second {
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+  }
+
   .box {
     width: 130px;
     height: 130px;

@@ -20,11 +20,17 @@ function App() {
                 <p>MIN</p>
                 <img src={box} alt='' className='box' />
               </div>
+              <div className='minute'>
+                <p>00</p>
+              </div>
             </div>
             <div className='time sec'>
               <div className='dot'>
                 <p>SEC</p>
                 <img src={box} alt='' className='box' />
+              </div>
+              <div className='second'>
+                <p>00</p>
               </div>
             </div>
           </div>
