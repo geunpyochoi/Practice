@@ -14,21 +14,17 @@ function App() {
           <p className='timer'>TIMER</p>
           <hr />
           <div className='time-text'>
-            <div className='time hrs'>
-              <span>HRS</span>
-              <div className='dot'>
-                <img src={box} alt='' className='box' />
-              </div>
-            </div>
             <div className='time min'>
-              <span>MIN</span>
               <div className='dot'>
+                <p>MIN</p>
                 <img src={box} alt='' className='box' />
               </div>
             </div>
             <div className='time sec'>
-              <span>SEC</span>
-              <img src={box} alt='' className='box' />
+              <div className='dot'>
+                <p>SEC</p>
+                <img src={box} alt='' className='box' />
+              </div>
             </div>
           </div>
         </TimerBox>

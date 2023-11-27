@@ -30,3 +30,14 @@
 #   else:
 #     return 1
 # print(factorial(n))
+
+cards = [3, 6, 7, 2, 1, 10, 5, 9, 8, 12, 11, 4];
+
+num = len(cards) + 1
+
+comb = []
+for i in range(0,num-1):
+  for j in range(i+1,num-1):
+    if i+j == num:
+      comb.append([i,j]);
+print(comb);

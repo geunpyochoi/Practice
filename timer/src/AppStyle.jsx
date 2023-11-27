@@ -74,19 +74,29 @@ export const TimerBox = styled.div`
   }
   .time {
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
   .dot {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    p {
+      color: var(--light, #a5b6ee);
+      margin-bottom: 10px;
+    }
   }
   .hrs::after,
   .min::after {
     content: "";
-    display: inline-block;
+    display: block;
     width: 100px;
     height: 100px;
-    background: url(${dot}) no-repeat center center;
+    background: url(${dot}) no-repeat center 70px;
+  }
+  .box {
+    width: 130px;
+    height: 130px;
   }
 `;
+export const Buttons = styled.div``;
