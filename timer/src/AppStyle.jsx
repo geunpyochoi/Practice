@@ -54,7 +54,7 @@ export const TimerBox = styled.div`
   .timer {
     font-size: 30px;
     margin-top: 60px;
-    font-family: "Pretendard-Regular";
+    font-family: "GongGothicMedium";
     color: #fff;
     font-weight: 700;
   }
@@ -99,4 +99,22 @@ export const TimerBox = styled.div`
     height: 130px;
   }
 `;
-export const Buttons = styled.div``;
+export const Buttons = styled.div`
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  button {
+    border: 0;
+    background-color: transparent;
+  }
+`;
+
+export const Step = styled.div`
+  margin-top: 20px;
+  p {
+    font-size: 2em;
+    color: #ffffff;
+    font-family: "GongGothicMedium";
+  }
+`;

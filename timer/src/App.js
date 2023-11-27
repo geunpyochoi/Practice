@@ -1,7 +1,8 @@
 import React from "react";
-import { Body, TimerBox } from "./AppStyle";
+import { Body, Buttons, Step, TimerBox } from "./AppStyle";
 import { GlobalStyles } from "./AppStyle";
-import dot from "./images/dot.png";
+import start from "./images/button/start-default.png";
+import reset from "./images/button/reset-default.png";
 
 import box from "./images/box.png";
 function App() {
@@ -27,6 +28,17 @@ function App() {
               </div>
             </div>
           </div>
+          <Buttons>
+            <button>
+              <img src={start} alt='' />
+            </button>
+            <button>
+              <img src={reset} alt='' />
+            </button>
+          </Buttons>
+          <Step>
+            <p>STEP 1</p>
+          </Step>
         </TimerBox>
       </Body>
     </>
