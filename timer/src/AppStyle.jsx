@@ -98,14 +98,15 @@ export const TimerBox = styled.div`
   .minute {
     font-size: 70px;
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 48%;
+    left: 11%;
   }
   .second {
+    text-align: center;
     font-size: 70px;
     position: absolute;
-    top: 50%;
-    left: 17%;
+    top: 48%;
+    left: 19%;
   }
 
   .box {
@@ -119,6 +120,7 @@ export const Buttons = styled.div`
   justify-content: center;
   gap: 20px;
   button {
+    cursor: pointer;
     border: 0;
     background-color: transparent;
   }
